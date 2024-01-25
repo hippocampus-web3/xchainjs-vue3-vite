@@ -52,7 +52,7 @@ export default defineConfig(({mode}) => {
       }
     },
     commonjsOptions: {
-      transformMixedEsModules: true
+      transformMixedEsModules: false
     }
   },
   resolve: {
